@@ -62,11 +62,17 @@ The Actor-Critic method combines the two networks to accelerate the learning pro
 #### Hyperparameters
 
 BUFFER_SIZE = 1e7  # replay buffer size
+
 BATCH_SIZE = 256        # minibatch size
+
 GAMMA = 0.99            # discount factor
+
 TAU = 1e-3              # for soft update of target parameters
+
 LR_ACTOR = 2e-4         # learning rate of the actor 
+
 LR_CRITIC = 2e-4        # learning rate of the critic
+
 WEIGHT_DECAY = 0        # L2 weight decay
 
 #### Experience Reply
